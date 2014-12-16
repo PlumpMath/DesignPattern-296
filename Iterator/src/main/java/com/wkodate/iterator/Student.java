@@ -1,0 +1,26 @@
+package com.wkodate.iterator;
+
+/**
+ * Student.java
+ *
+ */
+public class Student {
+
+    private final String name;
+
+    private final int sex;
+
+    public Student(String name, int sex) {
+        this.name = name;
+        this.sex = sex;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSex() {
+        return sex;
+    }
+
+}
